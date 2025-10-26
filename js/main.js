@@ -97,8 +97,7 @@ function closeMenu() {
 }
 
 
-
-
+// ----------
 
 document.querySelectorAll('.buy-button').forEach(button => {
     button.addEventListener('click', () => {
@@ -175,11 +174,10 @@ document.querySelector('.close').addEventListener('click', () => {
              modal.style.display = 'none';
          } else {
              alert("Passwords do not match. Try again.");
-         }
+         }   
      });
 
-
-
+    //  -----------
 
      document.querySelectorAll(".buy-button").forEach((button) => {
        button.addEventListener("click", function () {
